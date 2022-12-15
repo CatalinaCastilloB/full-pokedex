@@ -1,5 +1,5 @@
         $(document).ready(function() {
-            for (let i = 1; i < 120; i++) {
+            for (let i = 1; i < 906; i++) {
                 $('#contenedorPokedex').append('<div class="pokemonGeneral">' + '<img class="poke" value="' + i + '" id="' + i + '" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + i + '.png" alt = "bulbasaur" >' +'</div>')
             }
             $('.pokemonGeneral').click(function() {
