@@ -14,9 +14,13 @@ nav{
  background-color: rgb(56, 59, 60);
  color:rgba(223, 233, 239, 0.5);
  height: 10vh;
- position: sticky;
+ width: 100vw;
+ position: absolute;
+ display: block;
  bottom: 0px;
  left:0px;
+ padding: 0px;
+ margin-top: 0px;
 }
 
 /* para obtener una lista lateral en nav*/
@@ -31,8 +35,8 @@ li{
 }
 
 .pkmnBtn {
-  width: 13vw;
-  height: 13vw;
+  width: 8vh;
+  height: 8vh;
   border: 1px transparent;
   margin: 1vw;
   cursor: pointer;
@@ -57,19 +61,20 @@ contenedorPokedex: SOLO pokedex
   width: 100%;
   height: 90vh;
   border: 1px transparent;
-  padding: 0px;
+  padding-bottom: 1%;
   margin: 0px;
-  display: block;
+  display: inline-flex;
+  flex-wrap: wrap;
   background-color: rgb(151, 206, 245);
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .pokeDex {
   width: 95%;
-  height: 49%;
+  height: 50%;
   display: inline-block;
   border: 1px transparent;
-  padding: 1%;
+  padding:0px;
   margin: 2px;
 }
 
@@ -77,10 +82,10 @@ contenedorPokedex: SOLO pokedex
 /* hijos de pokeDex*/
 #contenedorInfoPkmn {
   width: auto;
-  height:95%;
+  height:100%;
   background-color: rgb(105, 155, 230);
-  padding: 2%;
-  margin: 1%;
+  padding: 1%;
+  margin: 0px;
   border: 1px transparent;
   display: flex;
   flex-direction: row;
@@ -91,10 +96,10 @@ contenedorPokedex: SOLO pokedex
 
 #contenedorPokedex {
   width: auto;
-  height: 90%;
+  height: 95%;
   background-color: rgb(105, 155, 230);
-  padding: 2%;
-  margin-top: 1%;
+  padding: 0px;
+  margin-top: 10px;
   border: 1px transparent;
   display: flex;
   flex-wrap: wrap;
@@ -202,8 +207,8 @@ hijos y nietos contenedor info pkmn
 
 /* parametros para css de jquery*/
 .pokemonGeneral {
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   padding: 0px;
   margin: 1%;
   border: 1px transparent;
