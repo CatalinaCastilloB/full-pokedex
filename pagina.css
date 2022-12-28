@@ -127,7 +127,7 @@ hijos y nietos contenedor info pkmn
 
 .nombrePkmn {
   width: auto;
-  height: 8vh;
+  height: 5vh;
   background-color: rgba(223, 233, 239, 0.5);
   padding: 0vw;
   margin: 1%;
@@ -151,9 +151,9 @@ hijos y nietos contenedor info pkmn
 
 .imgPkmn {
   width: auto;
-  height: 23vh;
+  height: 40vmax;
   margin: 1%;
-  display: inline-flex;
+  display: inline-block;
   background-color: blueviolet;
   border: 1px transparent;
   border-radius: 15px;
